@@ -8,12 +8,13 @@ The underlying framework will initially focus on storage and transfer of value, 
 
 ## Principles:
 
--  **Privacy over performance.** Slower verification times and bigger transactions are the price of privacy. 
 -  **Enforce all features in the protocol as consensus rules.** Features implemented in core txn/block generation but not protocol verification creates software fingerprinting heuristics.
 -  **Encrypt all fields when possible.** Chain analysis algorithms love plaintext data. Privacy coins should not.
 -  **Anything plaintext must be bounded and quantized.** (For example, a power of 2^N for 4 < N < 16)
+-  **Privacy over performance.** Slower verification times and bigger transactions are the price of privacy.
+-  **In-band compliance mechanisms should preserve privacy.** A variety of privacy levels/models should be considered (e.g. all-private, user/issuer differential privacy, semi-permissioned issuance, etc)
 -  **Basic research is crucial, never be afraid to ask a question.** Given the exponential increase in processsing power and bandwidth for residential and commercial devices, it is useful to study tomorrow's solutions even if they're not performant toady.
 -  **Build for tomorrow’s adversaries.** Due to the dire threat of retrospective deanonymization, transactions should remain private against future generations of statistical and cryptographic analyses.
 -  **No devotion to parameters.** Any parameter or protocol should be subject to continuous introspection, and changed if circumstances or models suggest that a different value would improve network performance. In other words, every algorithm or value is subject to future optimization.
 -  **Always deploy the best technology.** Avoid ossification, and always integrate the most secure technology. 
--  **Compliance mechanisms should preserve privacy.** A variety of privacy levels/models should be considered (e.g. all-private, user/issuer differential privacy, semi-permissioned issuance, etc)
+
