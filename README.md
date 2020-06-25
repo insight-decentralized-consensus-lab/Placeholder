@@ -16,4 +16,4 @@ The underlying framework will initially focus on storage and transfer of value, 
 -  **Build for tomorrow’s adversaries.** Due to the dire threat of retrospective deanonymization, transactions should remain private against future generations of statistical and cryptographic analyses.
 -  **No devotion to parameters.** Any parameter or protocol should be subject to continuous introspection, and changed if circumstances or models suggest that a different value would improve network performance. In other words, every algorithm or value is subject to future optimization.
 -  **Always deploy the best technology.** Avoid ossification, and always integrate the most secure technology. 
--  **Compliance mechanisms should preserve privacy** A variety of privacy levels/models should be considered (e.g. all-private, user/issuer differential privacy, semi-permissioned issuance, etc)
+-  **Compliance mechanisms should preserve privacy.** A variety of privacy levels/models should be considered (e.g. all-private, user/issuer differential privacy, semi-permissioned issuance, etc)
